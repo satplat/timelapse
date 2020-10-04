@@ -16,9 +16,12 @@ As an example, the following polygon is a correct area polygon points (coordinat
 > 36.1921193138716 50.6240608162892,36.1601194008489 50.624552535992,36.1602016419336 50.7429287600999,36.1925107789363 50.743325337844,36.1921193138716 50.6240608162892
 
 ## Run
-Just run App as bellow:
-
-```$ ./App```
+In order to run please visit [apieco.ir](https://apieco.ir/api/%D9%88%D8%A8%D8%B3%D8%B1%D9%88%DB%8C%D8%B3-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%B2%D9%85%DB%8C%D9%86%D9%87%D8%A7%DB%8C-%DA%A9%D8%B4%D8%A7%D9%88%D8%B1%D8%B2%DB%8C-agricult/#)
+to get api token.
+Then open the **main.go** file and put the token in the token variable.  
+After that you can run the program using ( You would need a go compiler )  
+```$ go run main.go```  or create a binary file  
+```$ go build``` and ```$ ./App```
 
 
 ## Modifications
