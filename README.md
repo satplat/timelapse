@@ -1,7 +1,15 @@
 # TimeLapse
 Select a region and get a timelapse video for it.
 This project is powered by **satplat** APIs, you can find it from apieco.ir.  
-At first this program will submit an area using provided coordinates, then it will download RGB images for this year (Every month may contain over 3 images) and saves it into **.image** directory and this directory will be deleted as soon as video is created.
+At first this program will submit an area using provided coordinates, then it 
+will download RGB images for this year (Every month may contain over 3 images) 
+and saves it into **.image** directory and this directory will be deleted as 
+soon as video is created.
+
+## What's new
+In the latest version you can select an index to download the index for the 
+image that is downloaded. Go to _internal/downloader.go_, line 73. Put the index
+you want, and it will create a csv file for every image.
  
 ## Dependencies
 For converting images into video, you need ffmpeg script, which you can download it by running the command below.  

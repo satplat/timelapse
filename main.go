@@ -11,7 +11,7 @@ import (
 func main() {
 	data, _ := ioutil.ReadFile("land.txt")
 	coordinate := string(data)
-	token := "GET TOKEN"
+	token := "Lrz98FKjcun5omDBUhyCRsa7hMUy4rmd"
 	fmt.Println("Start Registering Land...")
 	landID, err := internal.RegisterLand(coordinate, token)
 	if err != nil {
